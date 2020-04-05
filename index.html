@@ -30,8 +30,8 @@
 
 
      <header class="blog-header py-3">
-<nav class="navbar navbar-expand-lg navbar-light bg-dark">
-<i class="fas fa-hand-sparkles fa-3x mb-3 text-muted"></i>
+<nav class="navbar navbar-expand-lg bg-dark">
+<i class="fas fa-hand-sparkles fa-3x mb-3" style="color: #fff"></i>
   <a class="navbar-brand" href="#">Hex Pixels</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -59,13 +59,18 @@
       </li>
     </ul>
   </div>
-
+  <div class="d-flex justify-content-flex-end">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <a class="nav-link" href="#">Instagram<span class="sr-only">(current)</span></a>
+        <i class="fab fa-instagram fa-3x" style="color: #fff"></i>
+</div>
+</div>
 </nav>
      </header>
 
 <!-- jumbo -->
 
-<section class="jumbotron text-center" style="background-image: url(couloir.jpg); background-size: cover; background-position: center; min-height: 600px;">
+<section class="jumbotron text-center" style="background-image: url(photodude.jpg); background-size: cover; background-position: center; min-height: 600px;">
   <div class="container">
   <div class="text-white" >
         <h1>La photo est un sortilège</h1>
@@ -87,9 +92,9 @@
 
       <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
-          <img src="marine.jpg" class="card-img-top" alt="Intimité">
+          <img src="womanbed.jpg" class="card-img-top" alt="Intimité">
           <div class="card-body">
-            <p class="card-text">Vous avez envie d'une séance seul-e ou à plusieurs pour des photos en intimité, c'est possible et dans vos conditions.</p>
+            <p class="card-text">Vous avez envie d'une séance seul-e ou à plusieurs pour des photos en intimité, c'est possible et dans vos conditions.</p><br>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                 <button type="button" class="btn btn-sm btn-outline-secondary">+ d'info</button>
@@ -106,7 +111,7 @@
         <div class="card mb-4 shadow-sm">
           <img src="foule.jpg" class="card-img-top" alt="Intimité">
           <div class="card-body">
-            <p class="card-text">Un évenement particulier, une soirée, un concert à immortaliser.</p>
+            <p class="card-text">Un évenement particulier, une soirée, un concert à immortaliser.</p><br><br>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                 <button type="button" class="btn btn-sm btn-outline-secondary">+ d'info</button>
@@ -120,7 +125,7 @@
 
       <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
-          <img src="yohanie1.jpg" class="card-img-top" alt="Intimité">
+          <img src="photowood.jpg" class="card-img-top" alt="Intimité">
           <div class="card-body">
             <p class="card-text">Vous avez une idée derrière la tête ? Faites la moi parvenir et nous pourrons ensemble concrétiser vos envies photographique.</p>
             <div class="d-flex justify-content-between align-items-center">
@@ -158,9 +163,9 @@
 <div class="row sm-8">
     <div class="col-sm-4">
           <div class="card" style="width: 18rem;">
-            <img src="womanbed.jpg" class="card-img-top" alt="...">
+            <img src="yohanie1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-            <p class="card-text">C'est super chouette, 2h en toute intimité et sans me rendre compte que j'étais prise en photo, ce qui a donné un rendu naturel.</p>
+            <p class="card-text">C'est super chouette, 2h en toute intimité et sans me rendre compte que j'étais prise en photo, ce qui a donné un rendu naturel.</p><br>
               <small class="text-muted">Yohanie, Septembre 2019</small>
             </div>
           </div>
@@ -168,7 +173,7 @@
 
     <div class="col-sm-4">
           <div class="card" style="width: 18rem;">
-            <img src="youngboy.jpg" class="card-img-top" alt="...">
+            <img src="marine.jpg" class="card-img-top" alt="...">
             <div class="card-body">
           <p class="card-text">C'était très calme et tranquille, ça m'a apaisée aussi bien dans le moment qu'après avoir vu le résultat, j'ai hate de renouveler la séance.</p>
           <small class="text-muted">Marine, octobre 2019</small>
@@ -179,8 +184,8 @@
           <div class="card" style="width: 18rem;">
             <img src="youngboy.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-          <p class="card-text">C'était très calme et tranquille, ça m'a apaisée aussi bien dans le moment qu'après avoir vu le résultat, j'ai hate de renouveler la séance.</p>
-          <small class="text-muted">Marine, octobre 2019</small>
+          <p class="card-text">C'était très calme et tranquille, ça m'a apaisée aussi bien dans le moment qu'après avoir vu le résultat, j'ai hate de renouveler la séance.</p><br>
+          <small class="text-muted">Hugo, octobre 2019</small>
             </div>
           </div>
     </div>
@@ -218,7 +223,7 @@
             </div>
                  <div class="col-lg-4 mr-auto text-center">
                      <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-                     <!-- Make sure to change the email address in BOTH the anchor text and the link target below!--><a class="d-block" href="mailto:contact@yourwebsite.com">contact@hexpixels.com</a>
+                     <a class="d-block">contact@hexpixels.com</a>
                  </div>
              </div>
          </div>
@@ -231,7 +236,6 @@
       <a href="#">Back to top</a>
     </p>
 <p>Hex Pixels &copy; Bootstrap</p>
-  <p>New to Bootstrap? <a href="https://getbootstrap.com/">Visit the homepage</a> or read our <a href="/docs/4.4/getting-started/introduction/">getting started guide</a>.</p>
 </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
